@@ -5,7 +5,7 @@
 
 from scrapy.item import Item, Field
 
-class AntibesbuscrawlerItem(Item):
-    # define the fields for your item here like:
-    # name = Field()
-    pass
+class LinePDFItem(Item):
+	# define the fields for your item here like:
+	name = Field()
+	url = Field()
