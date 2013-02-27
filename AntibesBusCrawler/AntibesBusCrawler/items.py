@@ -9,3 +9,9 @@ class LinePDFItem(Item):
 	# define the fields for your item here like:
 	name = Field()
 	url = Field()
+
+class StopItem(Item):
+	# define the fields for the Stop
+	name = Field()
+	code = Field()
+	directions = Field()
