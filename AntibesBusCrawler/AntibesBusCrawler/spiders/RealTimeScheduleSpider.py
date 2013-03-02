@@ -5,6 +5,7 @@ from scrapy import log
 from urlparse import urlparse
 import string
 
+
 from AntibesBusCrawler.items import StopItem
 
 class RealTimeScheduleSpider(BaseSpider):
@@ -15,6 +16,7 @@ class RealTimeScheduleSpider(BaseSpider):
 		"http://tempsreel.envibus.fr/list/?com_id=1&letter=*",
 		# Valbonne
 		"http://tempsreel.envibus.fr/list/?com_id=3&letter=*"
+		# "http://tempsreel.envibus.fr/?ptano=453$454$AMPHORES"
 	]
 
 	def parse(self, response):
@@ -39,18 +41,37 @@ class RealTimeScheduleSpider(BaseSpider):
 			request.meta['item'] = stopItem
 			yield request
 
-	def parseDirection(self, response):
+	def parseDirection(self, response): #parseDirection(self, response):
 		# the html selector
 		stopItem = response.meta['item']
 
-		for i in range(1, 3):
-			direction = {}
-			direction['name'] = 'testName'
-			direction['lineNo'] = '1'
-			direction['code'] = 'codeQQQ'
+		hxs = HtmlXPathSelector(response)
 
-			stopItem['directions'].append(direction)
-		#hxs = HtmlXPathSelector(response)
-		#self.log("parse direction "+stopItem['name'])
+		lines = hxs.select('//div[@class="formulaire"]/table/tr')
+
+		for line in lines:
+			inputTag = line.select('.//input[@type="checkbox"]')
+			if inputTag.select('.//@name')[0].extract() == 'ligno':
+				code = inputTag.select('.//@value')[0].extract()
+
+				lineNo = line.select('.//img//@alt')[0].extract()
+
+				name = line.select('.//b/text()')
+				if len(name) != 0:
+					name = name[0].extract()
+				else:
+					name = ''
+
+				self.log("code = "+code)
+				self.log("lineNo = "+lineNo)
+				self.log("name = "+name)
+
+				direction = {}
+				direction['name'] = name
+				direction['lineNo'] = lineNo[6:]
+				direction['code'] = code
+				stopItem['directions'].append(direction)
+			else:
+				continue
 
 		yield stopItem
