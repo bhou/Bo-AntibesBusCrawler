@@ -1,0 +1,486 @@
+2013-03-03 03:17:00+0100 [scrapy] INFO: Scrapy 0.14.0.2841 started (bot: AntibesBusCrawler)
+2013-03-03 03:17:00+0100 [scrapy] DEBUG: Enabled extensions: FeedExporter, LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, MemoryUsage, SpiderState
+2013-03-03 03:17:00+0100 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, RedirectMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-03-03 03:17:00+0100 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-03-03 03:17:00+0100 [scrapy] DEBUG: Enabled item pipelines: 
+2013-03-03 03:17:00+0100 [RealTimeScheduleSpider] INFO: Spider opened
+2013-03-03 03:17:00+0100 [RealTimeScheduleSpider] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-03-03 03:17:00+0100 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-03-03 03:17:00+0100 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: Crawled (200) <GET http://tempsreel.envibus.fr/list/?com_id=3&letter=*> (referer: None)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: ALBERT EINSTEIN (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: BEETHOVEN (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: BEL AIR (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: BOIS DE VALBONNE (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: BOUILLIDE (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: BRUCS (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: BRUGUET (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: CARDOULINES (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: CARRIERE (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: CERAM (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: CICA (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: CIGALES (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: CLAUSONNES (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: COLLEGE DE VALBONNE (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: ESPACES DE SOPHIA (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: FAUVETTES (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: FONT DE CUBERTE (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: G. POMPIDOU (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: GARBEJAIRE (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: GARE ROUTIERE VALBONNE SOPHIA ANTIPOLIS (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: GARE ROUTIERE VALBONNE SOPHIA-ANTIPOLIS (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: GENETS (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: HAUTS DE VALBONNE (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: HOTEL DE VILLE (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: LA BAISSE (CG) (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: LUCIOLES (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: LYCEE DE VALBONNE 1 (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: MACARONS (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: OREADES (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: PETITE FERME (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: PEYNIBLOU (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: PIERREFEU (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: PLACE BERMOND (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: PONT DE LA BRAGUE (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: ROBERTE (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: Route des CrÛtes (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: SOPHIE LAFFITE (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: STADE LEON CHABERT (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: VAL D'AZUR (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: VAL DE CUBERTE (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: VAL MARTIN (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: VALBONNE VILLAGE (VALBONNE)
+2013-03-03 03:17:01+0100 [RealTimeScheduleSpider] DEBUG: VERONIERE (VALBONNE)
+2013-03-03 03:17:31+0100 [RealTimeScheduleSpider] DEBUG: Crawled (200) <GET http://tempsreel.envibus.fr/?ptano=8$1009$ALBERT%20EINSTEIN> (referer: http://tempsreel.envibus.fr/list/?com_id=3&letter=*)
+2013-03-03 03:17:31+0100 [RealTimeScheduleSpider] DEBUG: Scraped from <200 http://tempsreel.envibus.fr/?ptano=8$1009$ALBERT%20EINSTEIN>
+	{'code': u'8$1009$ALBERT EINSTEIN',
+	 'directions': [],
+	 'name': u'ALBERT EINSTEIN (VALBONNE)'}
+2013-03-03 03:18:00+0100 [scrapy] INFO: Scrapy 0.14.0.2841 started (bot: AntibesBusCrawler)
+2013-03-03 03:18:00+0100 [scrapy] DEBUG: Enabled extensions: FeedExporter, LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, MemoryUsage, SpiderState
+2013-03-03 03:18:00+0100 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, RedirectMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-03-03 03:18:00+0100 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-03-03 03:18:00+0100 [scrapy] DEBUG: Enabled item pipelines: 
+2013-03-03 03:18:00+0100 [RealTimeScheduleSpider] INFO: Spider opened
+2013-03-03 03:18:00+0100 [RealTimeScheduleSpider] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-03-03 03:18:00+0100 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6024
+2013-03-03 03:18:00+0100 [scrapy] DEBUG: Web service listening on 0.0.0.0:6081
+2013-03-03 03:18:00+0100 [RealTimeScheduleSpider] INFO: Crawled 2 pages (at 2 pages/min), scraped 1 items (at 1 items/min)
+2013-03-03 03:18:01+0100 [RealTimeScheduleSpider] DEBUG: Crawled (200) <GET http://tempsreel.envibus.fr/?ptano=506$1938$CIGALES> (referer: http://tempsreel.envibus.fr/list/?com_id=3&letter=*)
+2013-03-03 03:18:01+0100 [RealTimeScheduleSpider] DEBUG: Scraped from <200 http://tempsreel.envibus.fr/?ptano=506$1938$CIGALES>
+	{'code': u'506$1938$CIGALES', 'directions': [], 'name': u'CIGALES (VALBONNE)'}
+2013-03-03 03:18:01+0100 [RealTimeScheduleSpider] DEBUG: Crawled (200) <GET http://tempsreel.envibus.fr/list/?com_id=1&letter=*> (referer: None)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ADRIANA (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: AIGLES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ALTANA (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: AMBASSADEUR (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: AMBROISIE LAUVERT (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: AMPHORES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: AMPHORES 2 (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ANEMONES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ANTHALA (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ANTILLES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: APOLLINAIRE DESNOS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: APOLLINAIRE DESNOS D (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ATELIERS MUNICIPAUX (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: AUTRICHIENS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: AV. BARQUIER (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: AV. DE LA LIBERATION (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: AV. DE VERDUN (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: AV. MARECHAL REILLE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: AV. PASTOUR (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: BALZAC (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: BARREAU (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: BASTIDES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: BD. BELLEVUE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: BEAUVALLON (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: BLACASSE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: BLEU MARINE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: BLEUETS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: BOUEE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: BREGUIERES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: BRETONS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: BRIAND (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: BRICKA (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: BRUSQUETS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CAPUCINES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CARREFOUR ST CLAUDE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CARRIAT (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CASTORS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CENTRE COMMERCIAL Carrefour (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CH. DE LA COLLE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CH. DE LA SALIS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CH. DE ST MAYMES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CH. DES ONDES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CH. DU PRUGNON (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CH. DU PUY (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CH. DU VAL BOSQUET (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CHAPELLE DES COMBES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CHAPELLE ST JEAN (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CHAPELLE ST ROCH (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CHATEAU DE LA BRAGUE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CHATEAU VERT (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CHENES VERTS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CHENONCEAU (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CIMETIERE BAS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CIMETIERE HAUT (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CIMETIERE RABIAC (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CIMETIERE RABIAC HAUT (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CISTES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: COLLEGE BERTONE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: COLLEGE DE LA FONTONNE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: COLLEGE DE LA ROSTAGNE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CONCORDE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CONSTANCE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CONSUL (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CONTREBANDIERS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: COOPERATIVE AGRICOLE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CORAIL (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: COUGOULINS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: COURBET (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: COUTELIER (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CRECHE BADINE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CRECHE DES TERRASSES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CROIX ROUGE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: CROUTON (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: DAMES BLANCHES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: DEUXIEME AVENUE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: DIABLES BLEUS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ECOLE DU CAP (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ECOLE J. MOULIN (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ECOLE ST MAYMES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: EDEN PARK (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: EDEN ROC (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: EDEN ROC (TERMINUS DE LA GAROUPE) (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: EGLISE STE JEANNE D'ARC (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: EL SOL (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: EMPEL (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ESTEREL (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: EUCALYPTUS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: EUCALYPTUS (CG) (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: EUCALYPTUS 2 (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: FABRE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: FLAUBERT (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: FLEURS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: FOCH (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: FONTAINE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: FONTMERLE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: FORT CARRE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: FOYER LE ROC (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: FOYER LE ROC 1 (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: FOYER P. MERLI (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: FRERE GARBERO (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: GALION (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: GARE ROUTIERE D'ANTIBES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: GARE SNCF D'ANTIBES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: GARE SNCF JUAN LES PINS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: GARE SNCF JUAN LES PINS A (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: GAROUPE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: GENERAL FERRIE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: GOYA (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: GROULES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: GUILLABERT (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: GUILLAUMONT (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: HAUTES BREGUIERES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: HAUTS D'ANTIBES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: HERMITAGE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: HOPITAL (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: HOPITAL DE LA FONTONNE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: HOPITAL DE LA FONTONNE A (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: HOTEL DE VILLE D'ANTIBES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ILETTE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: JARDIN DE LA GARE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: JARDIN DE L'AMIRAL (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: JARDIN PAULINE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: JEUX DE BOULES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: JOFFRE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: JONQUETS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: JONQUILLES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: LA FONTONNE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: LA FONTONNE (CG) (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: LAS PALMAS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: LE PONT COLONIAL (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: LENTISQUES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: LERINA (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: LOGIS ST CLAUDE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: LOU PARADOU (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: LUNA PARK (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: LYCEE AUDIBERTI (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: LYCEE HORTICOLE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: LYCEE LEONARD DE VINCI (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: LYCEE LEONARD DE VINCI D (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: MAIRIE ANNEXE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: MAISON DU TOURISME (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: MAIZIERE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: MAREPOLIS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: MARINELAND (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: MARTYRS DE LA RESISTANCE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: MAYERLING (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: MESANGES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: MEXICAINES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: MIMOSAS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: MONT ST JEAN (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: MOYENNES BREGUIERES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: MURIERS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: MYRTES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: NIELLES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: NOVA ANTIPOLIS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: OFFICE DU TOURISME A (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: OLIVAIE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: OLIVIERS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PAGANE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PALAIS DES CONGRES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PANORAMA CONSTANCE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PARC ELVINA (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PARC RELAIS DU FORT CARRE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PARKING DU PONTEIL (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PARKING DULYS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PASSERELLE SNCF (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PENSEES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PEPINIERE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PEPINIERES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PETIT FOUR (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PHALENES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PHARE DU CAP (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PIMEAU (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PIN DORE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PLACE BARNAUD (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PLACE DE GAULLE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PLACE JEAN AUDE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PLACE JEAN AUDE A (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PLAGE DE LA SALIS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PLAGE PUBLIQUE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PLATEAU FLEURI (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PLEIN SUD (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PONT DULYS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PONT ROMAIN (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PORT DE LA SALIS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PORT VAUBAN (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PORTE MARINE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: PRINTEMPS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: RABIAC ESTAGNOL (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: RASTINES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: RASTINES / VAL BOSQUET (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: REGENCE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: REGENT (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: RELAIS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: RETENAOU BRUSQUETS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: RICHELIEU (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ROCHAT (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ROI SOLEIL (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ROMARINS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ROSES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ROSES DES VENTS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ROSSIGNOL (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ROSTAGNE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ROUTE DE ST JEAN (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: RUBAN BLEU (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: RUE DE LA REPUBLIQUE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: RUE F. MISTRAL (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: RUE FONTVIELLE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: RUE LACAN (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: RUE PASTEUR (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: RUE PAULINE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: SARRAZINE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: SEMBOULES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: SOLEIL D'OR (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: SQUARE CERUTTI (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: SQUARE DULYS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ST FRANCOIS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ST HONORAT (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ST JEAN (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ST MAYMES HAUT (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: ST MAYMES VIEUX BRUSQUETS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: STADE AUVERGNE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: STADE DES 3 MOULINS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: STADE NAUTIQUE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: SUPER ANTIBES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: SUPER ANTIBES D (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: TAMARIS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: TANANARIVE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: TERRASSES D'ANTIBES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: TERRES BLANCHES (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: TERRIERS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: TILLEULS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: TRADELIERE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: TRIANON (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: USINE ELECTRIQUE (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: VAL D'OR (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: VALLON VERT (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: VAUTRIN (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: VAUTRIN BAS (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: VILMORIN (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: WEISWEILLER (ANTIBES)
+2013-03-03 03:18:02+0100 [RealTimeScheduleSpider] DEBUG: WILSON GABAYE (ANTIBES)
+2013-03-03 03:18:31+0100 [RealTimeScheduleSpider] DEBUG: Crawled (200) <GET http://tempsreel.envibus.fr/?ptano=2387$2388$CICA> (referer: http://tempsreel.envibus.fr/list/?com_id=3&letter=*)
+2013-03-03 03:18:31+0100 [RealTimeScheduleSpider] DEBUG: Scraped from <200 http://tempsreel.envibus.fr/?ptano=2387$2388$CICA>
+	{'code': u'2387$2388$CICA', 'directions': [], 'name': u'CICA (VALBONNE)'}
+2013-03-03 03:18:32+0100 [RealTimeScheduleSpider] DEBUG: Crawled (200) <GET http://tempsreel.envibus.fr/?ptano=4$5$ADRIANA> (referer: http://tempsreel.envibus.fr/list/?com_id=1&letter=*)
+2013-03-03 03:18:32+0100 [RealTimeScheduleSpider] DEBUG: Scraped from <200 http://tempsreel.envibus.fr/?ptano=4$5$ADRIANA>
+	{'code': u'4$5$ADRIANA', 'directions': [], 'name': u'ADRIANA (ANTIBES)'}
+2013-03-03 03:19:00+0100 [RealTimeScheduleSpider] INFO: Crawled 2 pages (at 2 pages/min), scraped 1 items (at 1 items/min)
+2013-03-03 03:19:00+0100 [RealTimeScheduleSpider] INFO: Crawled 4 pages (at 2 pages/min), scraped 3 items (at 2 items/min)
+2013-03-03 03:19:01+0100 [RealTimeScheduleSpider] DEBUG: Crawled (200) <GET http://tempsreel.envibus.fr/?ptano=100$101$CERAM> (referer: http://tempsreel.envibus.fr/list/?com_id=3&letter=*)
+2013-03-03 03:19:01+0100 [RealTimeScheduleSpider] DEBUG: Scraped from <200 http://tempsreel.envibus.fr/?ptano=100$101$CERAM>
+	{'code': u'100$101$CERAM', 'directions': [], 'name': u'CERAM (VALBONNE)'}
+2013-03-03 03:19:02+0100 [RealTimeScheduleSpider] DEBUG: Crawled (200) <GET http://tempsreel.envibus.fr/?ptano=19$ATELIERS%20MUNICIPAUX> (referer: http://tempsreel.envibus.fr/list/?com_id=1&letter=*)
+2013-03-03 03:19:02+0100 [RealTimeScheduleSpider] DEBUG: Scraped from <200 http://tempsreel.envibus.fr/?ptano=19$ATELIERS%20MUNICIPAUX>
+	{'code': u'19$ATELIERS MUNICIPAUX',
+	 'directions': [],
+	 'name': u'ATELIERS MUNICIPAUX (ANTIBES)'}
+2013-03-03 03:19:31+0100 [RealTimeScheduleSpider] DEBUG: Crawled (200) <GET http://tempsreel.envibus.fr/?ptano=1763$1764$CARRIERE> (referer: http://tempsreel.envibus.fr/list/?com_id=3&letter=*)
+2013-03-03 03:19:31+0100 [RealTimeScheduleSpider] DEBUG: Scraped from <200 http://tempsreel.envibus.fr/?ptano=1763$1764$CARRIERE>
+	{'code': u'1763$1764$CARRIERE',
+	 'directions': [],
+	 'name': u'CARRIERE (VALBONNE)'}
+2013-03-03 03:19:32+0100 [RealTimeScheduleSpider] DEBUG: Crawled (200) <GET http://tempsreel.envibus.fr/?ptano=2505$APOLLINAIRE%20DESNOS%20D> (referer: http://tempsreel.envibus.fr/list/?com_id=1&letter=*)
+2013-03-03 03:19:32+0100 [RealTimeScheduleSpider] DEBUG: Scraped from <200 http://tempsreel.envibus.fr/?ptano=2505$APOLLINAIRE%20DESNOS%20D>
+	{'code': u'2505$APOLLINAIRE DESNOS D',
+	 'directions': [],
+	 'name': u'APOLLINAIRE DESNOS D (ANTIBES)'}
+2013-03-03 03:20:00+0100 [RealTimeScheduleSpider] INFO: Crawled 4 pages (at 2 pages/min), scraped 3 items (at 2 items/min)
+2013-03-03 03:20:00+0100 [RealTimeScheduleSpider] INFO: Crawled 6 pages (at 2 pages/min), scraped 5 items (at 2 items/min)
+2013-03-03 03:20:01+0100 [RealTimeScheduleSpider] DEBUG: Crawled (200) <GET http://tempsreel.envibus.fr/?ptano=494$495$CARDOULINES> (referer: http://tempsreel.envibus.fr/list/?com_id=3&letter=*)
+2013-03-03 03:20:01+0100 [RealTimeScheduleSpider] DEBUG: Scraped from <200 http://tempsreel.envibus.fr/?ptano=494$495$CARDOULINES>
+	{'code': u'494$495$CARDOULINES',
+	 'directions': [],
+	 'name': u'CARDOULINES (VALBONNE)'}
+2013-03-03 03:20:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=382$BRUGUET> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=382$BRUGUET took longer than 180 seconds.
+2013-03-03 03:20:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=351$BRUCS> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=351$BRUCS took longer than 180 seconds.
+2013-03-03 03:20:02+0100 [RealTimeScheduleSpider] DEBUG: Crawled (200) <GET http://tempsreel.envibus.fr/?ptano=16$APOLLINAIRE%20DESNOS> (referer: http://tempsreel.envibus.fr/list/?com_id=1&letter=*)
+2013-03-03 03:20:02+0100 [RealTimeScheduleSpider] DEBUG: Scraped from <200 http://tempsreel.envibus.fr/?ptano=16$APOLLINAIRE%20DESNOS>
+	{'code': u'16$APOLLINAIRE DESNOS',
+	 'directions': [],
+	 'name': u'APOLLINAIRE DESNOS (ANTIBES)'}
+2013-03-03 03:20:31+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=316$1007$BOUILLIDE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=316$1007$BOUILLIDE took longer than 180 seconds.
+2013-03-03 03:20:32+0100 [RealTimeScheduleSpider] DEBUG: Crawled (200) <GET http://tempsreel.envibus.fr/?ptano=457$458$ANTILLES> (referer: http://tempsreel.envibus.fr/list/?com_id=1&letter=*)
+2013-03-03 03:20:32+0100 [RealTimeScheduleSpider] DEBUG: Scraped from <200 http://tempsreel.envibus.fr/?ptano=457$458$ANTILLES>
+	{'code': u'457$458$ANTILLES', 'directions': [], 'name': u'ANTILLES (ANTIBES)'}
+2013-03-03 03:21:00+0100 [RealTimeScheduleSpider] INFO: Crawled 6 pages (at 2 pages/min), scraped 5 items (at 2 items/min)
+2013-03-03 03:21:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 1 pages/min), scraped 6 items (at 1 items/min)
+2013-03-03 03:21:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=65$1125$BOIS%20DE%20VALBONNE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=65$1125$BOIS%20DE%20VALBONNE took longer than 180 seconds.
+2013-03-03 03:21:02+0100 [RealTimeScheduleSpider] DEBUG: Crawled (200) <GET http://tempsreel.envibus.fr/?ptano=15$1000$ANTHALA> (referer: http://tempsreel.envibus.fr/list/?com_id=1&letter=*)
+2013-03-03 03:21:02+0100 [RealTimeScheduleSpider] DEBUG: Scraped from <200 http://tempsreel.envibus.fr/?ptano=15$1000$ANTHALA>
+	{'code': u'15$1000$ANTHALA', 'directions': [], 'name': u'ANTHALA (ANTIBES)'}
+2013-03-03 03:21:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=2028$2451$ANEMONES> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=2028$2451$ANEMONES took longer than 180 seconds.
+2013-03-03 03:21:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=1098$1099$AMPHORES%202> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=1098$1099$AMPHORES%202 took longer than 180 seconds.
+2013-03-03 03:21:31+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=52$1124$BEL%20AIR> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=52$1124$BEL%20AIR took longer than 180 seconds.
+2013-03-03 03:21:32+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=453$454$AMPHORES> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=453$454$AMPHORES took longer than 180 seconds.
+2013-03-03 03:22:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 1 pages/min), scraped 6 items (at 1 items/min)
+2013-03-03 03:22:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:22:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=50$51$BEETHOVEN> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=50$51$BEETHOVEN took longer than 180 seconds.
+2013-03-03 03:22:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=14$1057$AMBROISIE%20LAUVERT> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=14$1057$AMBROISIE%20LAUVERT took longer than 180 seconds.
+2013-03-03 03:22:31+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=1612$1732$HOTEL%20DE%20VILLE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=1612$1732$HOTEL%20DE%20VILLE took longer than 180 seconds.
+2013-03-03 03:22:32+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=451$452$AMBASSADEUR> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=451$452$AMBASSADEUR took longer than 180 seconds.
+2013-03-03 03:23:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:23:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:23:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=1613$1731$HAUTS%20DE%20VALBONNE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=1613$1731$HAUTS%20DE%20VALBONNE took longer than 180 seconds.
+2013-03-03 03:23:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=548$GENETS> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=548$GENETS took longer than 180 seconds.
+2013-03-03 03:23:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=2553$GARE%20ROUTIERE%20VALBONNE%20SOPHIA-ANTIPOLIS> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=2553$GARE%20ROUTIERE%20VALBONNE%20SOPHIA-ANTIPOLIS took longer than 180 seconds.
+2013-03-03 03:23:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=11$12$ALTANA> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=11$12$ALTANA took longer than 180 seconds.
+2013-03-03 03:23:31+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=367$369$VERONIERE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=367$369$VERONIERE took longer than 180 seconds.
+2013-03-03 03:23:32+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=2323$2324$AIGLES> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=2323$2324$AIGLES took longer than 180 seconds.
+2013-03-03 03:24:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:24:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:24:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=958$2507$VALBONNE%20VILLAGE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=958$2507$VALBONNE%20VILLAGE took longer than 180 seconds.
+2013-03-03 03:24:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=1760$BLEU%20MARINE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=1760$BLEU%20MARINE took longer than 180 seconds.
+2013-03-03 03:24:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=314$1061$BLACASSE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=314$1061$BLACASSE took longer than 180 seconds.
+2013-03-03 03:24:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=47$1075$BEAUVALLON> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=47$1075$BEAUVALLON took longer than 180 seconds.
+2013-03-03 03:24:31+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=1693$1694$VAL%20MARTIN> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=1693$1694$VAL%20MARTIN took longer than 180 seconds.
+2013-03-03 03:24:32+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=2521$WILSON%20GABAYE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=2521$WILSON%20GABAYE took longer than 180 seconds.
+2013-03-03 03:25:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:25:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:25:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=1761$1762$VAL%20DE%20CUBERTE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=1761$1762$VAL%20DE%20CUBERTE took longer than 180 seconds.
+2013-03-03 03:25:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=981$982$WEISWEILLER> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=981$982$WEISWEILLER took longer than 180 seconds.
+2013-03-03 03:25:31+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=945$946$VAL%20D'AZUR> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=945$946$VAL%20D'AZUR took longer than 180 seconds.
+2013-03-03 03:25:32+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=980$VILMORIN> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=980$VILMORIN took longer than 180 seconds.
+2013-03-03 03:26:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:26:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:26:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=910$STADE%20LEON%20CHABERT> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=910$STADE%20LEON%20CHABERT took longer than 180 seconds.
+2013-03-03 03:26:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=897$898$SOPHIE%20LAFFITE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=897$898$SOPHIE%20LAFFITE took longer than 180 seconds.
+2013-03-03 03:26:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=2385$2386$Route%20des%20Cr%C3%9Btes> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=2385$2386$Route%20des%20Cr%C3%9Btes took longer than 180 seconds.
+2013-03-03 03:26:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=964$VAUTRIN%20BAS> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=964$VAUTRIN%20BAS took longer than 180 seconds.
+2013-03-03 03:26:31+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=352$ROBERTE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=352$ROBERTE took longer than 180 seconds.
+2013-03-03 03:26:32+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=962$1695$VAUTRIN> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=962$1695$VAUTRIN took longer than 180 seconds.
+2013-03-03 03:27:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:27:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:27:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=1673$1674$PONT%20DE%20LA%20BRAGUE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=1673$1674$PONT%20DE%20LA%20BRAGUE took longer than 180 seconds.
+2013-03-03 03:27:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=959$1001$VALLON%20VERT> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=959$1001$VALLON%20VERT took longer than 180 seconds.
+2013-03-03 03:27:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=952$1024$VAL%20D'OR> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=952$1024$VAL%20D'OR took longer than 180 seconds.
+2013-03-03 03:27:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=937$1256$USINE%20ELECTRIQUE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=937$1256$USINE%20ELECTRIQUE took longer than 180 seconds.
+2013-03-03 03:27:31+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=748$PLACE%20BERMOND> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=748$PLACE%20BERMOND took longer than 180 seconds.
+2013-03-03 03:27:32+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=442$443$TRIANON> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=442$443$TRIANON took longer than 180 seconds.
+2013-03-03 03:28:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:28:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:28:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=735$736$PIERREFEU> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=735$736$PIERREFEU took longer than 180 seconds.
+2013-03-03 03:28:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=365$1020$TRADELIERE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=365$1020$TRADELIERE took longer than 180 seconds.
+2013-03-03 03:28:31+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=1666$1667$PEYNIBLOU> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=1666$1667$PEYNIBLOU took longer than 180 seconds.
+2013-03-03 03:28:32+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=615$616$TILLEULS> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=615$616$TILLEULS took longer than 180 seconds.
+2013-03-03 03:29:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:29:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:29:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=1619$1729$PETITE%20FERME> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=1619$1729$PETITE%20FERME took longer than 180 seconds.
+2013-03-03 03:29:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=591$592$OREADES> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=591$592$OREADES took longer than 180 seconds.
+2013-03-03 03:29:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=651$MACARONS> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=651$MACARONS took longer than 180 seconds.
+2013-03-03 03:29:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=612$613$TERRIERS> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=612$613$TERRIERS took longer than 180 seconds.
+2013-03-03 03:29:31+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=2500$LYCEE%20DE%20VALBONNE%201> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=2500$LYCEE%20DE%20VALBONNE%201 took longer than 180 seconds.
+2013-03-03 03:29:32+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=611$1040$TERRES%20BLANCHES> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=611$1040$TERRES%20BLANCHES took longer than 180 seconds.
+2013-03-03 03:30:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:30:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:30:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=573$574$LUCIOLES> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=573$574$LUCIOLES took longer than 180 seconds.
+2013-03-03 03:30:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=1107$1108$TERRASSES%20D'ANTIBES> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=1107$1108$TERRASSES%20D'ANTIBES took longer than 180 seconds.
+2013-03-03 03:30:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=431$608$TANANARIVE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=431$608$TANANARIVE took longer than 180 seconds.
+2013-03-03 03:30:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=2396$2397$TAMARIS> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=2396$2397$TAMARIS took longer than 180 seconds.
+2013-03-03 03:30:31+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=307$LA%20BAISSE%20(CG)> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=307$LA%20BAISSE%20(CG) took longer than 180 seconds.
+2013-03-03 03:30:32+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=2511$SUPER%20ANTIBES%20D> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=2511$SUPER%20ANTIBES%20D took longer than 180 seconds.
+2013-03-03 03:31:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:31:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:31:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=253$254$2552$GARE%20ROUTIERE%20VALBONNE%20SOPHIA%20ANTIPOLIS> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=253$254$2552$GARE%20ROUTIERE%20VALBONNE%20SOPHIA%20ANTIPOLIS took longer than 180 seconds.
+2013-03-03 03:31:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=917$SUPER%20ANTIBES> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=917$SUPER%20ANTIBES took longer than 180 seconds.
+2013-03-03 03:31:31+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=246$247$GARBEJAIRE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=246$247$GARBEJAIRE took longer than 180 seconds.
+2013-03-03 03:31:32+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=912$913$STADE%20NAUTIQUE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=912$913$STADE%20NAUTIQUE took longer than 180 seconds.
+2013-03-03 03:32:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:32:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:32:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=265$266$G.%20POMPIDOU> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=265$266$G.%20POMPIDOU took longer than 180 seconds.
+2013-03-03 03:32:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=1604$FONT%20DE%20CUBERTE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=1604$FONT%20DE%20CUBERTE took longer than 180 seconds.
+2013-03-03 03:32:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=1639$1730$FAUVETTES> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=1639$1730$FAUVETTES took longer than 180 seconds.
+2013-03-03 03:32:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=434$1006$STADE%20DES%203%20MOULINS> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=434$1006$STADE%20DES%203%20MOULINS took longer than 180 seconds.
+2013-03-03 03:32:31+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=213$214$ESPACES%20DE%20SOPHIA> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=213$214$ESPACES%20DE%20SOPHIA took longer than 180 seconds.
+2013-03-03 03:32:32+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=1101$1102$STADE%20AUVERGNE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=1101$1102$STADE%20AUVERGNE took longer than 180 seconds.
+2013-03-03 03:33:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:33:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:33:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=2110$COLLEGE%20DE%20VALBONNE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=2110$COLLEGE%20DE%20VALBONNE took longer than 180 seconds.
+2013-03-03 03:33:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=1550$1551$ST%20MAYMES%20VIEUX%20BRUSQUETS> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=1550$1551$ST%20MAYMES%20VIEUX%20BRUSQUETS took longer than 180 seconds.
+2013-03-03 03:33:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=879$1063$ST%20MAYMES%20HAUT> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=879$1063$ST%20MAYMES%20HAUT took longer than 180 seconds.
+2013-03-03 03:33:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=433$1023$ST%20JEAN> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=433$1023$ST%20JEAN took longer than 180 seconds.
+2013-03-03 03:33:31+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=508$1111$CLAUSONNES> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=508$1111$CLAUSONNES took longer than 180 seconds.
+2013-03-03 03:33:32+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=877$ST%20HONORAT> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=877$ST%20HONORAT took longer than 180 seconds.
+2013-03-03 03:34:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:34:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:34:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=735$736$PIERREFEU> (failed 2 times): Getting http://tempsreel.envibus.fr/?ptano=735$736$PIERREFEU took longer than 180 seconds.
+2013-03-03 03:34:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=1191$2322$ST%20FRANCOIS> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=1191$2322$ST%20FRANCOIS took longer than 180 seconds.
+2013-03-03 03:34:31+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=1666$1667$PEYNIBLOU> (failed 2 times): Getting http://tempsreel.envibus.fr/?ptano=1666$1667$PEYNIBLOU took longer than 180 seconds.
+2013-03-03 03:34:32+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=1685$2425$SQUARE%20DULYS> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=1685$2425$SQUARE%20DULYS took longer than 180 seconds.
+2013-03-03 03:35:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:35:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:35:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=1619$1729$PETITE%20FERME> (failed 2 times): Getting http://tempsreel.envibus.fr/?ptano=1619$1729$PETITE%20FERME took longer than 180 seconds.
+2013-03-03 03:35:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=591$592$OREADES> (failed 2 times): Getting http://tempsreel.envibus.fr/?ptano=591$592$OREADES took longer than 180 seconds.
+2013-03-03 03:35:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=651$MACARONS> (failed 2 times): Getting http://tempsreel.envibus.fr/?ptano=651$MACARONS took longer than 180 seconds.
+2013-03-03 03:35:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=951$SQUARE%20CERUTTI> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=951$SQUARE%20CERUTTI took longer than 180 seconds.
+2013-03-03 03:35:31+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=2500$LYCEE%20DE%20VALBONNE%201> (failed 2 times): Getting http://tempsreel.envibus.fr/?ptano=2500$LYCEE%20DE%20VALBONNE%201 took longer than 180 seconds.
+2013-03-03 03:35:32+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=432$1033$SOLEIL%20D'OR> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=432$1033$SOLEIL%20D'OR took longer than 180 seconds.
+2013-03-03 03:36:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:36:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:36:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=573$574$LUCIOLES> (failed 2 times): Getting http://tempsreel.envibus.fr/?ptano=573$574$LUCIOLES took longer than 180 seconds.
+2013-03-03 03:36:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=604$605$SEMBOULES> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=604$605$SEMBOULES took longer than 180 seconds.
+2013-03-03 03:36:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=358$891$SARRAZINE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=358$891$SARRAZINE took longer than 180 seconds.
+2013-03-03 03:36:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=862$RUE%20PAULINE> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=862$RUE%20PAULINE took longer than 180 seconds.
+2013-03-03 03:36:31+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=307$LA%20BAISSE%20(CG)> (failed 2 times): Getting http://tempsreel.envibus.fr/?ptano=307$LA%20BAISSE%20(CG) took longer than 180 seconds.
+2013-03-03 03:36:32+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=1186$RUE%20PASTEUR> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=1186$RUE%20PASTEUR took longer than 180 seconds.
+2013-03-03 03:36:49+0100 [scrapy] INFO: Received SIGTERM, shutting down gracefully. Send again to force unclean shutdown
+2013-03-03 03:36:49+0100 [RealTimeScheduleSpider] INFO: Closing spider (shutdown)
+2013-03-03 03:36:49+0100 [scrapy] INFO: Received SIGTERM, shutting down gracefully. Send again to force unclean shutdown
+2013-03-03 03:36:49+0100 [RealTimeScheduleSpider] INFO: Closing spider (shutdown)
+2013-03-03 03:37:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:37:00+0100 [RealTimeScheduleSpider] INFO: Crawled 7 pages (at 0 pages/min), scraped 6 items (at 0 items/min)
+2013-03-03 03:37:01+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=253$254$2552$GARE%20ROUTIERE%20VALBONNE%20SOPHIA%20ANTIPOLIS> (failed 2 times): Getting http://tempsreel.envibus.fr/?ptano=253$254$2552$GARE%20ROUTIERE%20VALBONNE%20SOPHIA%20ANTIPOLIS took longer than 180 seconds.
+2013-03-03 03:37:02+0100 [RealTimeScheduleSpider] DEBUG: Retrying <GET http://tempsreel.envibus.fr/?ptano=860$RUE%20LACAN> (failed 1 times): Getting http://tempsreel.envibus.fr/?ptano=860$RUE%20LACAN took longer than 180 seconds.
