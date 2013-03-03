@@ -11,13 +11,18 @@ from AntibesBusCrawler.items import StopItem
 class RealTimeScheduleSpider(BaseSpider):
 	name = "RealTimeScheduleSpider"
 	allowed_domains = ["tempsreel.envibus.fr"]
-	start_urls = [
-		# Antibes
-		"http://tempsreel.envibus.fr/list/?com_id=1&letter=*",
-		# Valbonne
-		"http://tempsreel.envibus.fr/list/?com_id=3&letter=*"
-		# "http://tempsreel.envibus.fr/?ptano=453$454$AMPHORES"
-	]
+
+	def __init__(self, *args, **kwargs):
+		super(RealTimeScheduleSpider, self).__init__(*args, **kwargs)
+		self.start_urls = [kwargs.get('start_url')]
+
+	# start_urls = [
+	# 	# Antibes
+	# 	"http://tempsreel.envibus.fr/list/?com_id=1&letter=*",
+	# 	# Valbonne
+	# 	"http://tempsreel.envibus.fr/list/?com_id=3&letter=*"
+	# 	# "http://tempsreel.envibus.fr/?ptano=453$454$AMPHORES"
+	# ]
 
 	def parse(self, response):
 		# the html selector
@@ -41,7 +46,7 @@ class RealTimeScheduleSpider(BaseSpider):
 			request.meta['item'] = stopItem
 			yield request
 
-	def parseDirection(self, response): #parseDirection(self, response):
+	def parseDirection(self, response):
 		# the html selector
 		stopItem = response.meta['item']
 
