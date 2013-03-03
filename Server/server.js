@@ -92,12 +92,14 @@ server.listen(8000);
 console.log('Server running at http://127.0.0.1:8000');
 
 
-var minute = 17;
+var minute = 31;
 // job to access the Valbonne bus map, scheduled every day morning at 2:00 am
-scheduleJob(3, minute, startBusMapCrawlEx, {'url':'http://tempsreel.envibus.fr/list/?com_id=3&letter=*'});
+scheduleJob(18, minute, startBusMapCrawlEx, 
+	{'url':'http://tempsreel.envibus.fr/list/?com_id=3&letter=*', 'output':'valbonne.json'});
 
 // job to access the Antibes bus map, scheduled every day morning at 3:00 am
-scheduleJob(3, minute+1, startBusMapCrawlEx, {'url':'http://tempsreel.envibus.fr/list/?com_id=1&letter=*'});
+scheduleJob(18, minute+1, startBusMapCrawlEx, 
+	{'url':'http://tempsreel.envibus.fr/list/?com_id=1&letter=*', 'output':'antibes.json'});
 
 // job to merge all the bus map to one map, scheduled every day morning at 5:00 am
-scheduleJob(3, minute+2, mergeBusMap, {});
+scheduleJob(19, minute+2, mergeBusMap, {});
