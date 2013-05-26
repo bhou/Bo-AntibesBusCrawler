@@ -39,7 +39,7 @@ class RealTimeScheduleSpider(BaseSpider):
 
 			stopItem = StopItem()
 			stopItem['name'] = name.extract()
-			stopItem['code'] = code
+			stopItem['code'] = string.replace(code, ' ', '+')
 			stopItem['directions'] = []
 
 			request = Request('http://tempsreel.envibus.fr'+string.replace(link.extract(),'..', ''), callback=self.parseDirection)
