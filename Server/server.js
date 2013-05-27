@@ -6,7 +6,7 @@ var http = require('http');
 var fs = require('fs');
 var urlHelper = require('url');
 
-var SCRAPY_ROOT = '/Users/bohou/Developments/git_repository/Bo-AntibesBusCrawler/AntibesBusCrawler/AntibesBusCrawler';
+var SCRAPY_ROOT = '/home/bhou/git_repo/Bo-AntibesBusCrawler/AntibesBusCrawler/AntibesBusCrawler';
 
 
 var _mergedStopCache = null;
@@ -22,8 +22,9 @@ function serverCallback(req, res){
 		res.writeHead(200, {'Content-Type': 'application/json'});
 		if (_mergedStopCache == null) {
 			if (fs.existsSync(SCRAPY_ROOT + '/mergedStop.json')) {
-				var output = require(SCRAPY_ROOT + '/mergedStop.json');
-				_mergedStopCache = JSON.stringify(output, null, 2);
+				// var output = require(SCRAPY_ROOT + '/mergedStop.json');
+				// _mergedStopCache = JSON.stringify(output, null, 2);
+				var _mergedStopCache = fs.readFileSync(SCRAPY_ROOT + '/mergedStop.json', 'utf8');
 				console.log('updated the merged stop cache')
 			} 
 		}
@@ -56,7 +57,7 @@ function startBusMapCrawl(args){
 	var exec = require('child_process').exec;
 	exec(cmd, 
 		{
-			cwd: '/Users/bohou/Developments/git_repository/Bo-AntibesBusCrawler/AntibesBusCrawler/AntibesBusCrawler'
+			cwd: SCRAPY_ROOT
 		},
 		function(error, stdout, stderr){
 			console.log('stdout: ' + stdout);
@@ -95,7 +96,7 @@ function startBusMapCrawlEx(args){
 			'-t', 'json'
 		], 
 		{
-			cwd: '/Users/bohou/Developments/git_repository/Bo-AntibesBusCrawler/AntibesBusCrawler/AntibesBusCrawler',
+			cwd: SCRAPY_ROOT,
 			detached: true,
 			stdio: ['ignore', out, err]
 		});
@@ -181,23 +182,23 @@ function mergeBusMap(args){
  */
 
 var server = http.createServer(serverCallback);
-server.listen(8000);
-console.log('Server running at http://127.0.0.1:8000');
+server.listen(80, '0.0.0.0');
+console.log('Server running at http://0.0.0.0:8000');
 
 
-var minute = 13;
-var hour = 23;
+var minute = 0;
+var hour = 9;
 // job to access the Valbonne bus map, scheduled every day morning at 7:00 am
 scheduleJob(hour, minute, startBusMapCrawlEx, 
 	{'url':'http://tempsreel.envibus.fr/list/?com_id=3&letter=*', 'output':'valbonne.json'});
 
 // job to access the Antibes bus map, scheduled every day morning at 7:10 am
-scheduleJob(hour, minute+5, startBusMapCrawlEx, 
+scheduleJob(hour+1, minute, startBusMapCrawlEx, 
 	{'url':'http://tempsreel.envibus.fr/list/?com_id=1&letter=*', 'output':'antibes.json'});
 
 // job to access the Antibes bus map, scheduled every day morning at 7:20 am
-scheduleJob(hour, minute+10, startBusMapCrawlEx, 
+scheduleJob(hour+2, minute, startBusMapCrawlEx, 
 	{'url':'http://tempsreel.envibus.fr/list/?com_id=4&letter=*', 'output':'biot.json'});
 
 // job to merge all the bus map to one map, scheduled every day morning at 7:30 am
-scheduleJob(hour, minute+15, mergeBusMap, {'list':['antibes.json', 'valbonne.json', 'biot.json']});
+scheduleJob(hour+3, minute, mergeBusMap, {'list':['antibes.json', 'valbonne.json', 'biot.json']});
