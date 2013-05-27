@@ -24,7 +24,7 @@ function serverCallback(req, res){
 			if (fs.existsSync(SCRAPY_ROOT + '/mergedStop.json')) {
 				// var output = require(SCRAPY_ROOT + '/mergedStop.json');
 				// _mergedStopCache = JSON.stringify(output, null, 2);
-				var _mergedStopCache = fs.readFileSync(SCRAPY_ROOT + '/mergedStop.json', 'utf8');
+				_mergedStopCache = fs.readFileSync(SCRAPY_ROOT + '/mergedStop.json', 'utf8');
 				console.log('updated the merged stop cache')
 			} 
 		}
@@ -155,8 +155,14 @@ function mergeBusMap(args){
 
 	// load all the files
 	var files = [];
+	var content = null;
+	var data = null;
 	for (var i = 0; i < len; i++) {
-		files.push(require(SCRAPY_ROOT+'/'+list[i]));
+		if (fs.existSync(SCRAPY_ROOT + '/' + list[i])) {
+			content = fs.readFileSync(SCRAPY_ROOT + '/' + list[i], 'utf8');
+			data = JSON.parse(content);
+			files.push(data);
+		}
 	}
 
 	// merge them
