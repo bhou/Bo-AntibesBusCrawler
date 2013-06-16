@@ -158,7 +158,7 @@ function mergeBusMap(args){
 	var content = null;
 	var data = null;
 	for (var i = 0; i < len; i++) {
-		if (fs.existSync(SCRAPY_ROOT + '/' + list[i])) {
+		if (fs.existsSync(SCRAPY_ROOT + '/' + list[i])) {
 			content = fs.readFileSync(SCRAPY_ROOT + '/' + list[i], 'utf8');
 			data = JSON.parse(content);
 			files.push(data);
