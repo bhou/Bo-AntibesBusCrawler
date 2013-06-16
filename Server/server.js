@@ -10,6 +10,7 @@ var SCRAPY_ROOT = '/home/bhou/git_repo/Bo-AntibesBusCrawler/AntibesBusCrawler/An
 
 
 var _mergedStopCache = null;
+var _linePdfCache = null;
 
 // http server to provide the data access
 function serverCallback(req, res){
@@ -29,6 +30,15 @@ function serverCallback(req, res){
 			} 
 		}
 		res.end(_mergedStopCache);
+	} else if (urlPath == '/linePdf') {
+		res.writeHead(200, {'Content-Type': 'application/json'});
+		if (_linePdfCache == null) {
+			if (fs.existsSync(SCRAPY_ROOT + '/busLinePdf.json')) {
+				_linePdfCache = fs.readFileSync(SCRAPY_ROOT + '/busLinePdf.json', 'utf8');
+				console.log('updated the line pdf cache')
+			} 
+		}
+		res.end(_linePdfCache);
 	}
 }
 
@@ -92,6 +102,38 @@ function startBusMapCrawlEx(args){
 		[
 			'crawl', 'RealTimeScheduleSpider',
 			'-a', 'start_url=' + url,
+			'-o', output,
+			'-t', 'json'
+		], 
+		{
+			cwd: SCRAPY_ROOT,
+			detached: true,
+			stdio: ['ignore', out, err]
+		});
+
+	child.unref();
+}
+
+function startBusLinePdfCrawl(args) {
+	var output = args['output'];
+
+	console.log('start bus line pdf crawling job');
+
+	var fs = require('fs'),
+		out = fs.openSync('./out.log', 'a'),
+		err = fs.openSync('./err.log', 'a');
+
+  	if (fs.existsSync(SCRAPY_ROOT + '/' + output)) {
+  		fs.unlink(SCRAPY_ROOT + '/' + output, function (err) {
+	  		if (err) throw err;
+	  		console.log('successfully deleted ' + SCRAPY_ROOT + '/' + output);
+		});
+  	}
+
+  	var spawn = require('child_process').spawn;
+	var child = spawn('scrapy',
+		[
+			'crawl', 'LinePDFSpider',
 			'-o', output,
 			'-t', 'json'
 		], 
@@ -193,7 +235,7 @@ console.log('Server running at http://0.0.0.0:8000');
 
 
 var minute = 0;
-var hour = 9;
+var hour = 8;
 // job to access the Valbonne bus map, scheduled every day morning at 7:00 am
 scheduleJob(hour, minute, startBusMapCrawlEx, 
 	{'url':'http://tempsreel.envibus.fr/list/?com_id=3&letter=*', 'output':'valbonne.json'});
@@ -208,3 +250,7 @@ scheduleJob(hour+2, minute, startBusMapCrawlEx,
 
 // job to merge all the bus map to one map, scheduled every day morning at 7:30 am
 scheduleJob(hour+3, minute, mergeBusMap, {'list':['antibes.json', 'valbonne.json', 'biot.json']});
+
+// job to access the bus line
+scheduleJob(hour+4, minute, startBusLinePdfCrawl, {'output':'busLinePdf.json'});
+
